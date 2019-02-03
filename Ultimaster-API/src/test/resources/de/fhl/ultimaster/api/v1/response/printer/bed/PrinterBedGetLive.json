@@ -1,0 +1,9 @@
+{
+	"pre_heat": {
+		"active": false
+	},
+	"temperature": {
+		"current": 20.9,
+		"target": 0.0
+	}
+}

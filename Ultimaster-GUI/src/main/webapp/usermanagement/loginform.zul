@@ -1,0 +1,24 @@
+<zk>
+    <window id="wndLogin" width="450px" height="270px" apply="de.fhl.ultimaster.gui.view.usermanagement.LoginFormController">
+        <borderlayout width="100%" height="100%">
+            <center border="none">
+                <vlayout hflex="true">
+                    <hbox hflex="true" align="center">
+                        <label value="Email" hflex="1" />
+                        <textbox id="tbxMail" hflex="2" maxlength="100" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Password" hflex="1" />
+                        <textbox id="tbxPassword" hflex="2" type="password" maxlength="100" />
+                    </hbox>
+                </vlayout>
+            </center>
+            <south border="none">
+                <hbox hflex="true" pack="end">
+                    <button label="Cancel" autodisable="self" width="85px" onClick="wndLogin.detach()" />
+                    <button id="btnOk" label="Login" width="85px" />
+                </hbox>
+            </south>
+        </borderlayout>
+    </window>
+</zk>

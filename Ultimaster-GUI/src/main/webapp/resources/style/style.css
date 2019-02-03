@@ -1,0 +1,56 @@
+.z-tab-selected {
+	border-bottom: 2px solid #000000;
+}
+
+.z-tab-selected .z-tab-text:hover {
+	color: #000000;
+}
+
+.z-tab-selected .z-tab-text {
+	color: #000000;
+}
+
+.z-button {
+	background: #4fb7ff;
+}
+
+.pj-value {
+	font-style: italic;
+}
+
+.z-listheader {
+	background: #FFFFFF;
+	border-left: 1px solid #D9D9D9;
+}
+
+.z-listheader-content:active {
+	background: #4fb7ff;
+}
+
+.z-listheader-hover {
+	background: #FFFFFF;
+	border-left: 1px solid #D9D9D9;
+}
+
+.z-listheader-content {
+	color: #000000;
+}
+
+.z-listbox-header-border {
+	border-bottom: 2px solid #D9D9D9;
+}
+
+.z-listhead-bar {
+	border-left: 1px solid #D9D9D9;
+	background: #FFFFFF;
+}
+
+.z-listheader-sort .z-listheader-sorticon {
+	color: #000000;
+}
+
+.userlogin {
+	font-family: Arial, FontAwesome;
+	font-size: 35px;
+	cursor: pointer;
+}

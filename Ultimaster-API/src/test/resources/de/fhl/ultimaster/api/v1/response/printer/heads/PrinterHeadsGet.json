@@ -1,0 +1,54 @@
+[
+	{
+		"position": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"max_speed": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"acceleration": 0,
+		"jerk": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"extruders": [
+			{
+				"hotend": {
+					"id": "string",
+					"serial": "string",
+					"temperature": {
+						"target": 0,
+						"current": 0
+					},
+					"offset": {
+						"x": 0,
+						"y": 0,
+						"z": 0,
+						"state": "valid"
+					},
+					"statistics": {
+						"last_material_guid": "string",
+						"material_extruded": 0,
+						"max_temperature_exposed": 0,
+						"time_spent_hot": 0
+					}
+				},
+				"feeder": {
+					"position": 0,
+					"max_speed": 0,
+					"jerk": 0,
+					"acceleration": 0
+				},
+				"active_material": {
+					"length_remaining": 0,
+					"GUID": "string"
+				}
+			}
+		]
+	}
+]

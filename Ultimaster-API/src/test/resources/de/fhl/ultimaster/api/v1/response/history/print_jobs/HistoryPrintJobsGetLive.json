@@ -1,0 +1,54 @@
+[
+	{
+		"datetime_cleaned": "2018-03-13T11:49:35",
+		"datetime_finished": "2018-03-13T11:10:27",
+		"datetime_started": "2018-03-13T10:45:10",
+		"name": "UM3_logo1303_1",
+		"reprint_original_uuid": null,
+		"result": "Finished",
+		"source": "WEB_API/Unknown/Cura connect",
+		"time_elapsed": 1261.0,
+		"time_estimated": 1265.0,
+		"time_total": 0,
+		"uuid": "878690c7-2185-497a-8a42-ba05cae985f4"
+	},
+	{
+		"datetime_cleaned": "2018-03-13T09:24:57",
+		"datetime_finished": "2018-03-13T09:23:40",
+		"datetime_started": "2018-03-13T08:59:42",
+		"name": "UM3_logo1303",
+		"reprint_original_uuid": null,
+		"result": "Finished",
+		"source": "WEB_API/Unknown/Cura connect",
+		"time_elapsed": 1136.0,
+		"time_estimated": 1142.0,
+		"time_total": 0,
+		"uuid": "ac749516-f36a-4a40-8473-8a49781adb64"
+	},
+	{
+		"datetime_cleaned": "2018-03-09T08:13:18",
+		"datetime_finished": "2018-03-09T08:11:50",
+		"datetime_started": "2018-03-09T07:37:17",
+		"name": "UM3_fork_lift",
+		"reprint_original_uuid": null,
+		"result": "Finished",
+		"source": "WEB_API/Unknown/Cura connect",
+		"time_elapsed": 1905.0,
+		"time_estimated": 1803.0,
+		"time_total": 0,
+		"uuid": "61a4d6a8-d090-40f6-9cfd-bae57b42f732"
+	},
+	{
+		"datetime_cleaned": "2018-03-09T07:37:13",
+		"datetime_finished": "2018-03-09T07:31:15",
+		"datetime_started": "2018-03-09T07:02:52",
+		"name": "UM3_fork_lift",
+		"reprint_original_uuid": null,
+		"result": "Finished",
+		"source": "WEB_API/Unknown/Cura connect",
+		"time_elapsed": 1438.0,
+		"time_estimated": 1346.0,
+		"time_total": 0,
+		"uuid": "b398eb8a-30dc-4c41-ae1c-dde344fc7c02"
+	}
+]

@@ -1,0 +1,34 @@
+<zk>
+    <window id="wndPrintJob" width="500px" height="300px" apply="de.fhl.ultimaster.gui.view.printjob.PrintJobFormController">
+        <borderlayout width="100%" height="100%">
+            <center border="none">
+                <vlayout hflex="true">
+                    <hbox hflex="true" align="center">
+                        <label value="Name*" hflex="1" />
+                        <textbox id="tbxName" hflex="2" maxlength="100" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="File*" hflex="1" />
+                        <hbox hflex="2" pack="end" align="center">
+                            <label id="lblFilename" />
+                            <button id="btnUpload" upload="true,maxsize=-1" iconSclass="z-icon-upload" />
+                        </hbox>
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Active?" hflex="1" />
+                        <checkbox id="chbxActive" hflex="2" />
+                    </hbox>
+                </vlayout>
+            </center>
+            <south border="none">
+                <hbox hflex="true" pack="end">
+                    <hlayout vflex="true" hflex="true">
+                        <label value="* mandatory field" style="font-style: italic;" />
+                    </hlayout>
+                    <button label="Close" autodisable="self" width="85px" onClick="wndPrintJob.detach()" />
+                    <button id="btnOk" label="Ok" width="85px" />
+                </hbox>
+            </south>
+        </borderlayout>
+    </window>
+</zk>

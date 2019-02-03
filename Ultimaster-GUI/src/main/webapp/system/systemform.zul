@@ -1,0 +1,53 @@
+<zk>
+    <window id="wndSystem" width="500px" height="570px" apply="de.fhl.ultimaster.gui.view.system.SystemController">
+        <borderlayout width="100%" height="100%">
+            <center border="none">
+                <vlayout hflex="true">
+                    <hbox hflex="true" align="center">
+                        <label value="System" hflex="1" />
+                        <textbox id="tbxSystem" hflex="2" readonly="true" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Hostname" hflex="1" />
+                        <textbox id="tbxHostname" hflex="2" readonly="true" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Platform" hflex="1" />
+                        <textbox id="tbxPlatform" hflex="2" readonly="true" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Firmware" hflex="1" />
+                        <textbox id="tbxFirmware" hflex="2" readonly="true" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Runtime Memory" hflex="1" />
+                        <textbox id="tbxMemory" hflex="2" readonly="true" />
+                    </hbox>
+                    <separator />
+                    <hbox hflex="true" align="center">
+                        <label value="Language" hflex="1" />
+                        <textbox id="tbxLanguage" hflex="2" readonly="true" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Country" hflex="1" />
+                        <textbox id="tbxCountry" hflex="2" readonly="true" />
+                    </hbox>
+                    <separator />
+                    <hbox hflex="true" align="center">
+                        <label value="Time" hflex="1" />
+                        <textbox id="tbxTime" hflex="2" readonly="true" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Online" hflex="1" />
+                        <textbox id="tbxUptime" hflex="2" readonly="true" />
+                    </hbox>
+                </vlayout>
+            </center>
+            <south border="none">
+                <hbox hflex="true" pack="end">
+                    <button label="Close" autodisable="self" width="85px" onClick="wndSystem.detach()" />
+                </hbox>
+            </south>
+        </borderlayout>
+    </window>
+</zk>

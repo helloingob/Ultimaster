@@ -1,0 +1,19 @@
+{
+	"name": "string",
+	"platform": "string",
+	"hostname": "string",
+	"uptime": 0,
+	"type": "string",
+	"variant": "string",
+	"memory": {
+		"total": 0,
+		"used": 0
+	},
+	"hardware": {
+		"typeid": 0,
+		"revision": 0
+	},
+	"log": "string",
+	"version": "string",
+	"guid": "string"
+}

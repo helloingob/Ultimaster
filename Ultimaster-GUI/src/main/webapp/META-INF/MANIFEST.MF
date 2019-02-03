@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Specification-Title: Ultimaster
+Specification-Version: 1.0
+Implementation-URL: https://www.fh-luebeck.de/
+Implementation-Version: 1.0

@@ -1,0 +1,8 @@
+[
+	{
+		"fault_code": "HEADER_NOT_PRESENT",
+		"fault_level": "WARNING",
+		"message": "string",
+		"data": "string"
+	}
+]

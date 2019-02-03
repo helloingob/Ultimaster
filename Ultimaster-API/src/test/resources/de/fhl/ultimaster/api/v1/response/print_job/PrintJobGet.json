@@ -1,0 +1,14 @@
+{
+	"time_elapsed": 0,
+	"time_total": 0,
+	"datetime_started": "2018-05-25T06:15:19.754Z",
+	"datetime_finished": "2018-05-25T06:15:19.755Z",
+	"datetime_cleaned": "2018-05-25T06:15:19.755Z",
+	"source": "string",
+	"source_user": "string",
+	"source_application": "string",
+	"name": "string",
+	"uuid": "string",
+	"reprint_original_uuid": "string",
+	"state": "none"
+}

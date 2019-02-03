@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.fhl</groupId>
+    <artifactId>Ultimaster</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>Ultimaster</name>
+    <description>Masters the Ultimaker 3</description>
+    <modules>
+        
+        <module>Ultimaster-API</module>
+        <module>Ultimaster-Shared</module>
+    <module>Ultimaster-GUI</module>
+    <module>Ultimaster-Central</module>
+    </modules>
+
+    <properties>
+        <tinylog.version>1.3.4</tinylog.version>
+        <junit.version>4.12</junit.version>
+        <mockito.version>2.0.2-beta</mockito.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.tinylog</groupId>
+            <artifactId>tinylog</artifactId>
+            <version>${tinylog.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

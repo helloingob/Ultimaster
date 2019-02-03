@@ -1,0 +1,278 @@
+[
+	{
+		"message": "API Authentication added for application: Ultimaster user: Ultimaster API with id: fc39faebcb1ccc92955f25c720a8ef11",
+		"parameters": [
+			"fc39faebcb1ccc92955f25c720a8ef11",
+			"Ultimaster",
+			"Ultimaster API"
+		],
+		"time": "2018-05-25T06:31:52",
+		"type_id": 1048576
+	},
+	{
+		"message": "Print 878690c7-2185-497a-8a42-ba05cae985f4 cleared",
+		"parameters": [
+			"878690c7-2185-497a-8a42-ba05cae985f4"
+		],
+		"time": "2018-03-13T11:49:35",
+		"type_id": 131077
+	},
+	{
+		"message": "Print 878690c7-2185-497a-8a42-ba05cae985f4 finished",
+		"parameters": [
+			"878690c7-2185-497a-8a42-ba05cae985f4"
+		],
+		"time": "2018-03-13T11:10:27",
+		"type_id": 131076
+	},
+	{
+		"message": "Print 878690c7-2185-497a-8a42-ba05cae985f4 started with name UM3_logo1303_1",
+		"parameters": [
+			"878690c7-2185-497a-8a42-ba05cae985f4",
+			"UM3_logo1303_1"
+		],
+		"time": "2018-03-13T10:45:10",
+		"type_id": 131072
+	},
+	{
+		"message": "Print ac749516-f36a-4a40-8473-8a49781adb64 cleared",
+		"parameters": [
+			"ac749516-f36a-4a40-8473-8a49781adb64"
+		],
+		"time": "2018-03-13T09:24:57",
+		"type_id": 131077
+	},
+	{
+		"message": "Print ac749516-f36a-4a40-8473-8a49781adb64 finished",
+		"parameters": [
+			"ac749516-f36a-4a40-8473-8a49781adb64"
+		],
+		"time": "2018-03-13T09:23:40",
+		"type_id": 131076
+	},
+	{
+		"message": "Print ac749516-f36a-4a40-8473-8a49781adb64 started with name UM3_logo1303",
+		"parameters": [
+			"ac749516-f36a-4a40-8473-8a49781adb64",
+			"UM3_logo1303"
+		],
+		"time": "2018-03-13T08:59:42",
+		"type_id": 131072
+	},
+	{
+		"message": "Print 61a4d6a8-d090-40f6-9cfd-bae57b42f732 cleared",
+		"parameters": [
+			"61a4d6a8-d090-40f6-9cfd-bae57b42f732"
+		],
+		"time": "2018-03-09T08:13:18",
+		"type_id": 131077
+	},
+	{
+		"message": "Print 61a4d6a8-d090-40f6-9cfd-bae57b42f732 finished",
+		"parameters": [
+			"61a4d6a8-d090-40f6-9cfd-bae57b42f732"
+		],
+		"time": "2018-03-09T08:11:50",
+		"type_id": 131076
+	},
+	{
+		"message": "Print 61a4d6a8-d090-40f6-9cfd-bae57b42f732 started with name UM3_fork_lift",
+		"parameters": [
+			"61a4d6a8-d090-40f6-9cfd-bae57b42f732",
+			"UM3_fork_lift"
+		],
+		"time": "2018-03-09T07:37:17",
+		"type_id": 131072
+	},
+	{
+		"message": "Print b398eb8a-30dc-4c41-ae1c-dde344fc7c02 cleared",
+		"parameters": [
+			"b398eb8a-30dc-4c41-ae1c-dde344fc7c02"
+		],
+		"time": "2018-03-09T07:37:13",
+		"type_id": 131077
+	},
+	{
+		"message": "Print b398eb8a-30dc-4c41-ae1c-dde344fc7c02 finished",
+		"parameters": [
+			"b398eb8a-30dc-4c41-ae1c-dde344fc7c02"
+		],
+		"time": "2018-03-09T07:31:15",
+		"type_id": 131076
+	},
+	{
+		"message": "Print b398eb8a-30dc-4c41-ae1c-dde344fc7c02 started with name UM3_fork_lift",
+		"parameters": [
+			"b398eb8a-30dc-4c41-ae1c-dde344fc7c02",
+			"UM3_fork_lift"
+		],
+		"time": "2018-03-09T07:02:52",
+		"type_id": 131072
+	},
+	{
+		"message": "API Authentication added for application: Cura connect user:  with id: b7060e86330ce66531ece338d2b2387d",
+		"parameters": [
+			"b7060e86330ce66531ece338d2b2387d",
+			"Cura connect",
+			""
+		],
+		"time": "2018-03-08T07:28:32",
+		"type_id": 1048576
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "2018-03-08T07:28:23",
+		"type_id": 1
+	},
+	{
+		"message": "API Authentication added for application: Cura connect user:  with id: 7071ab7552f0b77cd8c0532e5bd31967",
+		"parameters": [
+			"7071ab7552f0b77cd8c0532e5bd31967",
+			"Cura connect",
+			""
+		],
+		"time": "2018-01-23T07:28:29",
+		"type_id": 1048576
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "2018-01-23T07:28:21",
+		"type_id": 1
+	},
+	{
+		"message": "Cleared all settings and history",
+		"parameters": [],
+		"time": "2018-01-23T07:27:43",
+		"type_id": 3
+	},
+	{
+		"message": "API Authentication added for application: Cura Connect user: Ultimaker with id: 4d0a7307b6d574db41ce9b8f4060e312",
+		"parameters": [
+			"4d0a7307b6d574db41ce9b8f4060e312",
+			"Cura Connect",
+			"Ultimaker"
+		],
+		"time": "1970-01-01T00:15:03",
+		"type_id": 1048576
+	},
+	{
+		"message": "API Authentication removed for application: Cura connect user:  with id: 7071ab7552f0b77cd8c0532e5bd31967",
+		"parameters": [
+			"7071ab7552f0b77cd8c0532e5bd31967",
+			"Cura connect",
+			""
+		],
+		"time": "1970-01-01T00:15:03",
+		"type_id": 1048577
+	},
+	{
+		"message": "Hotend 1 material changed to 506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9 by USER",
+		"parameters": [
+			"1",
+			"506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9",
+			"USER"
+		],
+		"time": "1970-01-01T00:12:46",
+		"type_id": 65537
+	},
+	{
+		"message": "Hotend 2 material changed to fe15ed8a-33c3-4f57-a2a7-b4b78a38c3cb by RFID",
+		"parameters": [
+			"2",
+			"fe15ed8a-33c3-4f57-a2a7-b4b78a38c3cb",
+			"RFID"
+		],
+		"time": "1970-01-01T00:09:13",
+		"type_id": 65537
+	},
+	{
+		"message": "Hotend 1 changed to BB 0.4 with serial b'\\xcb6\\x1a\\x1f\\x00\\x00'",
+		"parameters": [
+			"1",
+			"BB 0.4",
+			"b'\\xcb6\\x1a\\x1f\\x00\\x00'"
+		],
+		"time": "1970-01-01T00:03:02",
+		"type_id": 65536
+	},
+	{
+		"message": "Hotend 2 removed",
+		"parameters": [
+			"2"
+		],
+		"time": "1970-01-01T00:02:49",
+		"type_id": 65538
+	},
+	{
+		"message": "Hotend 1 changed to AA 0.4 with serial b'\\x02\\x1d\\x1a\\x1f\\x00\\x00'",
+		"parameters": [
+			"1",
+			"AA 0.4",
+			"b'\\x02\\x1d\\x1a\\x1f\\x00\\x00'"
+		],
+		"time": "1970-01-01T00:01:56",
+		"type_id": 65536
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:31",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:31",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:31",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:31",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:31",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:31",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:30",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:30",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:30",
+		"type_id": 1
+	},
+	{
+		"message": "System started",
+		"parameters": [],
+		"time": "1970-01-01T00:00:29",
+		"type_id": 1
+	}
+]

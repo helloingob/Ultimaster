@@ -1,0 +1,36 @@
+<zk>
+    <window id="wndUserForm" width="500px" height="370px" apply="de.fhl.ultimaster.gui.view.usermanagement.UserFormController">
+        <borderlayout width="100%" height="100%">
+            <center border="none">
+                <vlayout hflex="true">
+                    <hbox hflex="true" align="center">
+                        <label value="Name" hflex="1" />
+                        <textbox id="tbxName" hflex="2" maxlength="100" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Email" hflex="1" />
+                        <textbox id="tbxEmail" hflex="2" maxlength="100" />
+                    </hbox>
+                    <hbox hflex="true" align="center">
+                        <label value="Password" hflex="1" />
+                        <textbox id="tbxPassword" hflex="2" maxlength="100" />
+                    </hbox>
+                    <separator />
+                    <hbox hflex="true" align="center">
+                        <label value="Admin?" hflex="1" />
+                        <checkbox id="chbxAdmin" hflex="2" />
+                    </hbox>
+                </vlayout>
+            </center>
+            <south border="none">
+                <hbox hflex="true" pack="end">
+                    <hlayout vflex="true" hflex="true" valign="center">
+                        <label value="* mandatory field" style="font-style: italic;" />
+                    </hlayout>
+                    <button label="Cancel" autodisable="self" width="85px" onClick="wndUserForm.detach()" />
+                    <button id="btnOk" label="Ok" width="85px" />
+                </hbox>
+            </south>
+        </borderlayout>
+    </window>
+</zk>

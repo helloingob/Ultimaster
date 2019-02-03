@@ -1,0 +1,87 @@
+[
+	{
+		"acceleration": 3000.0,
+		"extruders": [
+			{
+				"active_material": {
+					"GUID": "506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9",
+					"guid": "506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9",
+					"length_remaining": -1.0
+				},
+				"feeder": {
+					"acceleration": 3000.0,
+					"jerk": 5.0,
+					"max_speed": 45.0
+				},
+				"hotend": {
+					"id": "AA 0.4",
+					"offset": {
+						"state": "valid",
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"serial": "a4171a1f0000",
+					"statistics": {
+						"last_material_guid": "506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9",
+						"material_extruded": 3120,
+						"max_temperature_exposed": 211,
+						"time_spent_hot": 12900
+					},
+					"temperature": {
+						"current": 26.2,
+						"target": 0.0
+					}
+				}
+			},
+			{
+				"active_material": {
+					"GUID": "fe15ed8a-33c3-4f57-a2a7-b4b78a38c3cb",
+					"guid": "fe15ed8a-33c3-4f57-a2a7-b4b78a38c3cb",
+					"length_remaining": 43937.17796273972
+				},
+				"feeder": {
+					"acceleration": 3000.0,
+					"jerk": 5.0,
+					"max_speed": 45.0
+				},
+				"hotend": {
+					"id": "BB 0.4",
+					"offset": {
+						"state": "valid",
+						"x": 0.07317073170731714,
+						"y": -0.07317073170731714,
+						"z": 1.4749077343712038
+					},
+					"serial": "cb361a1f0000",
+					"statistics": {
+						"last_material_guid": "fe15ed8a-33c3-4f57-a2a7-b4b78a38c3cb",
+						"material_extruded": 860,
+						"max_temperature_exposed": 217,
+						"time_spent_hot": 3420
+					},
+					"temperature": {
+						"current": 26.4,
+						"target": 0.0
+					}
+				}
+			}
+		],
+		"fan": 0.0,
+		"jerk": {
+			"x": 20.0,
+			"y": 20.0,
+			"z": 0.4
+		},
+		"max_speed": {
+			"x": 300.0,
+			"y": 300.0,
+			"z": 40.0
+		},
+		"position": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		}
+	}
+]

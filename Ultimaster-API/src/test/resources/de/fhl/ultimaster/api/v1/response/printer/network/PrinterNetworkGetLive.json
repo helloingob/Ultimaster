@@ -1,0 +1,62 @@
+{
+	"ethernet": {
+		"connected": false,
+		"enabled": false
+	},
+	"wifi": {
+		"connected": true,
+		"enabled": true,
+		"mode": "WIRELESS",
+		"ssid": "UM-NO-HOTSPOT-NAME-SET"
+	},
+	"wifi_networks": [
+		{
+			"SSID": "FHL-Wlan",
+			"connected": false,
+			"security_required": true,
+			"strength": 48
+		},
+		{
+			"SSID": "eduroam",
+			"connected": false,
+			"security_required": true,
+			"strength": 49
+		},
+		{
+			"SSID": "FHL-Gast",
+			"connected": false,
+			"security_required": false,
+			"strength": 47
+		},
+		{
+			"SSID": "FHL-Tagungen",
+			"connected": false,
+			"security_required": true,
+			"strength": 48
+		},
+		{
+			"SSID": "FHL-Labore",
+			"connected": false,
+			"security_required": true,
+			"strength": 47
+		},
+		{
+			"SSID": "NETGEAR",
+			"connected": true,
+			"security_required": true,
+			"strength": 80
+		},
+		{
+			"SSID": "Belkin.5F04",
+			"connected": false,
+			"security_required": true,
+			"strength": 30
+		},
+		{
+			"SSID": "UzL-Wlan",
+			"connected": false,
+			"security_required": true,
+			"strength": 48
+		}
+	]
+}

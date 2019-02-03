@@ -1,0 +1,16 @@
+{
+	"datetime_cleaned": "",
+	"datetime_finished": "",
+	"datetime_started": "2018-06-13T05:59:53",
+	"name": "UM3_CactusPot",
+	"progress": 0.25226004420178255,
+	"reprint_original_uuid": "",
+	"result": "",
+	"source": "WEB_API",
+	"source_application": "Ultimaster",
+	"source_user": "Ultimaster API",
+	"state": "printing",
+	"time_elapsed": 1085,
+	"time_total": 4303,
+	"uuid": "6f9a5bee-702c-4d7c-a360-5cf076ed7846"
+}

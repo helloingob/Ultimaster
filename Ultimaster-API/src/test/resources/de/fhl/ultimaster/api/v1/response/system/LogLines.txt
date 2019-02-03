@@ -1,0 +1,50 @@
+Jan 01 00:00:59 ultimakersystem-ccbdd3004c87 connmand[253]: ntp: time slew +1527226198.958279 s
+May 25 05:30:58 ultimakersystem-ccbdd3004c87 systemd[1]: Time has been changed
+May 25 05:31:01 ultimakersystem-ccbdd3004c87 flipflop_wsgi.py[413]: 05:31:01 - WAR - app.libs.printer_api:127 - Failed to fetch status for printer at http://192.168.0.14/api/v1
+May 25 05:31:06 ultimakersystem-ccbdd3004c87 flipflop_wsgi.py[413]: 05:31:06 - WAR - app.libs.printer_api:127 - Failed to fetch status for printer at http://192.168.0.14/api/v1
+May 25 05:31:11 ultimakersystem-ccbdd3004c87 flipflop_wsgi.py[413]: 05:31:11 - WAR - app.libs.printer_api:137 - Failed to fetch system info for printer at http://192.168.0.14/api/v1
+May 25 05:31:11 ultimakersystem-ccbdd3004c87 flipflop_wsgi.py[413]: 05:31:11 - WAR - app.models.printer:237 - Unable to contact printer Printer(unique_name=ultimakersystem-ccbdd3004c87, friendly_name=Ultimaker, uuid=1ab47b3a-d1c2-474c-a310-515989c37556, enabled=True, reserved_by=None, status=unreachable, authenticated=True) at IP 192.168.0.14
+May 25 05:31:11 ultimakersystem-ccbdd3004c87 flipflop_wsgi.py[413]: 05:31:11 - WAR - app.models.printer:307 - Found printer Printer(unique_name=ultimakersystem-ccbdd3004c87, friendly_name=Ultimaker, uuid=1ab47b3a-d1c2-474c-a310-515989c37556, enabled=True, reserved_by=None, status=unreachable, authenticated=True) at IP 192.168.0.31
+May 25 05:35:31 ultimakersystem-ccbdd3004c87 wpa_supplicant[273]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-73 noise=9999 txrate=36000
+May 25 05:35:38 ultimakersystem-ccbdd3004c87 wpa_supplicant[273]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-41 noise=9999 txrate=48000
+May 25 05:35:38 ultimakersystem-ccbdd3004c87 wpa_supplicant[273]: wlan0: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-41 noise=9999 txrate=36000
+May 25 05:40:29 ultimakersystem-ccbdd3004c87 wpa_supplicant[273]: wlan0: WPA: Group rekeying completed with 00:14:6c:1b:59:90 [GTK=TKIP]
+May 25 05:45:05 ultimakersystem-ccbdd3004c87 systemd[1]: Starting Cleanup of Temporary Directories...
+May 25 05:45:05 ultimakersystem-ccbdd3004c87 systemd[1]: Started Cleanup of Temporary Directories.
+May 25 05:48:02 ultimakersystem-ccbdd3004c87 connmand[253]: ntp: time slew -0.047395 s
+May 25 06:01:54 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:01:54,159 INFO     diagnostics     Active procedures= dbus.Array([], signature=dbus.Signature('(ss)'))
+May 25 06:01:54 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:01:54,163 INFO     diagnostics     Doing 100 sensor noise probes of 50 samples each...
+May 25 06:01:54 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:01:54,171 INFO     controller      Request to start procedure: GET_CAPACITIVE_SENSOR_NOISE
+May 25 06:01:54 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:01:54,185 INFO     printerService  Procedure start: GET_CAPACITIVE_SENSOR_NOISE: CalculateSensorNoiseStep
+May 25 06:01:54 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:01:54,191 INFO     printerStateProperty State change: idle -> maintenance
+May 25 06:01:54 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:01:54,225 INFO     printerService  Procedure next step: GET_CAPACITIVE_SENSOR_NOISE: CalculateSensorNoiseStep
+May 25 06:02:56 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:02:56,525 INFO     diagnostics     Active procedures= dbus.Array([dbus.Struct((dbus.String('GET_CAPACITIVE_SENSOR_NOISE'), dbus.String('CalculateSensorNoiseStep')), signature=None)], signature=dbus.Signature('(ss)'))
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,369 INFO     procedure       CalculateSensorNoiseProcedure(key='GET_CAPACITIVE_SENSOR_NOISE') transitioning from CalculateSensorNoiseStep(key='CalculateSensorNoiseStep') --> SleepStep(key='SLEEP')
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,372 INFO     printerService  Procedure next step: GET_CAPACITIVE_SENSOR_NOISE: SLEEP
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,884 INFO     procedure       CalculateSensorNoiseProcedure(key='GET_CAPACITIVE_SENSOR_NOISE') transitioning from SleepStep(key='SLEEP') --> None
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,887 INFO     printerService  Procedure finished: GET_CAPACITIVE_SENSOR_NOISE
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,891 INFO     printerStateProperty State change: maintenance -> idle
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,911 INFO     faultHandler    info(<class 'griffin.printer.faultHandler.FaultHandler'>, new firmware version detected message is now shown on display! 4.3.2.20180308, 42, {'current_version': '4.2.5', 'new_version': '4.3.2'})
+May 25 06:03:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:03:37,952 INFO     faultHandler    added Fault: L:INFO C:NEW_FIRMWARE_VERSION_AVAILABLE M:new firmware version detected message is now shown on display! 4.3.2.20180308
+May 25 06:04:51 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:04:51,783 INFO     diagnostics     Active procedures= dbus.Array([], signature=dbus.Signature('(ss)'))
+May 25 06:04:51 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:04:51,788 INFO     diagnostics     Doing 100 sensor noise probes of 50 samples each...
+May 25 06:04:51 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:04:51,801 INFO     controller      Request to start procedure: GET_CAPACITIVE_SENSOR_NOISE
+May 25 06:04:51 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:04:51,808 INFO     printerService  Procedure start: GET_CAPACITIVE_SENSOR_NOISE: CalculateSensorNoiseStep
+May 25 06:04:51 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:04:51,822 INFO     printerStateProperty State change: idle -> maintenance
+May 25 06:04:51 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:04:51,834 INFO     printerService  Procedure next step: GET_CAPACITIVE_SENSOR_NOISE: CalculateSensorNoiseStep
+May 25 06:05:06 ultimakersystem-ccbdd3004c87 connmand[253]: ntp: time slew -0.043577 s
+May 25 06:06:34 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:34,930 INFO     procedure       CalculateSensorNoiseProcedure(key='GET_CAPACITIVE_SENSOR_NOISE') transitioning from CalculateSensorNoiseStep(key='CalculateSensorNoiseStep') --> SleepStep(key='SLEEP')
+May 25 06:06:34 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:34,936 INFO     printerService  Procedure next step: GET_CAPACITIVE_SENSOR_NOISE: SLEEP
+May 25 06:06:35 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:35,452 INFO     procedure       CalculateSensorNoiseProcedure(key='GET_CAPACITIVE_SENSOR_NOISE') transitioning from SleepStep(key='SLEEP') --> None
+May 25 06:06:35 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:35,454 INFO     printerService  Procedure finished: GET_CAPACITIVE_SENSOR_NOISE
+May 25 06:06:35 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:35,482 INFO     printerStateProperty State change: maintenance -> idle
+May 25 06:06:35 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:35,503 INFO     faultHandler    info(<class 'griffin.printer.faultHandler.FaultHandler'>, new firmware version detected message is now shown on display! 4.3.2.20180308, 42, {'current_version': '4.2.5', 'new_version': '4.3.2'})
+May 25 06:06:37 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:37,218 INFO     faultHandler    added Fault: L:INFO C:NEW_FIRMWARE_VERSION_AVAILABLE M:new firmware version detected message is now shown on display! 4.3.2.20180308
+May 25 06:06:55 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:06:55,294 INFO     diagnostics     Active procedures= dbus.Array([], signature=dbus.Signature('(ss)'))
+May 25 06:06:55 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:06:55,300 INFO     diagnostics     Doing 100 sensor noise probes of 50 samples each...
+May 25 06:06:55 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:55,311 INFO     controller      Request to start procedure: GET_CAPACITIVE_SENSOR_NOISE
+May 25 06:06:55 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:55,315 INFO     printerService  Procedure start: GET_CAPACITIVE_SENSOR_NOISE: CalculateSensorNoiseStep
+May 25 06:06:55 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:55,320 INFO     printerStateProperty State change: idle -> maintenance
+May 25 06:06:55 ultimakersystem-ccbdd3004c87 python3[349]: 2018-05-25 06:06:55,330 INFO     printerService  Procedure next step: GET_CAPACITIVE_SENSOR_NOISE: CalculateSensorNoiseStep
+May 25 06:07:25 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:07:25,306 INFO     diagnostics     Active procedures= dbus.Array([dbus.Struct((dbus.String('GET_CAPACITIVE_SENSOR_NOISE'), dbus.String('CalculateSensorNoiseStep')), signature=None)], signature=dbus.Signature('(ss)'))
+May 25 06:07:25 ultimakersystem-ccbdd3004c87 python3[389]: 2018-05-25 06:07:25,333 INFO     diagnostics     Active procedures= dbus.Array([dbus.Struct((dbus.String('GET_CAPACITIVE_SENSOR_NOISE'), dbus.String('CalculateSensorNoiseStep')), signature=None)], signature=dbus.Signature('(ss)'))

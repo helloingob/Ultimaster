@@ -1,0 +1,27 @@
+<zk>
+    <window id="wndUserList" apply="de.fhl.ultimaster.gui.view.usermanagement.UserListController" width="960px" height="600px">
+        <borderlayout width="100%" height="100%">
+            <center border="none">
+                <vbox vflex="true" hflex="true">
+                    <listbox id="lbxUsers" vflex="true" hflex="true">
+                        <listhead>
+                            <listheader label="Name" sort="auto" />
+                            <listheader label="Email" sort="auto" />
+                            <listheader id="lhdAdmin" label="Admin" hflex="min" align="center" />
+                        </listhead>
+                    </listbox>
+                    <hbox hflex="true">
+                        <button id="btnAddUser" iconSclass="z-icon-plus" tooltiptext="Add User" />
+                        <button id="btnEditUser" iconSclass="z-icon-pencil" tooltiptext="Edit User" />
+                        <button id="btnDeleteUser" iconSclass="z-icon-times" tooltiptext="Remove User" />
+                    </hbox>
+                </vbox>
+            </center>
+            <south border="none">
+                <hbox hflex="true" pack="end">
+                    <button label="Close" autodisable="self" width="85px" onClick="wndUserList.detach()" />
+                </hbox>
+            </south>
+        </borderlayout>
+    </window>
+</zk>

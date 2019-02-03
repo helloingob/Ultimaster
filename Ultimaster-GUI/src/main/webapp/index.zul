@@ -1,0 +1,33 @@
+<?link rel="stylesheet" href="/resources/style/style.css"?>
+<zk>
+    <script type="text/javascript" src="/resources/static/highcharts/6.1.0/highcharts.js" />
+    <script type="text/javascript" src="/resources/static/highcharts/6.1.0/modules/no-data-to-display.js" />
+    <borderlayout apply="de.fhl.ultimaster.gui.view.IndexController" id="bdlMain">
+        <north>
+            <box hflex="true" vflex="true" align="center">
+                <hlayout width="960px">
+                    <image src="/resources/img/logo.png" width="130px" />
+                    <hbox hflex="true" align="center" pack="end">
+                        <button id="btnMainMenu" iconSclass="z-icon-reorder" popup="mnpMenu, after_end" />
+                    </hbox>
+                </hlayout>
+            </box>
+        </north>
+        <center border="none">
+            <include src="/printjob/printjoblist.zul" />
+        </center>
+        <south border="none">
+            <menupopup id="mnpMenu">
+                <menuitem id="mniMaterials" label="Materials" iconSclass="z-icon-database" />
+                <menuitem id="mniDiagnostics" label="Diagnostics" iconSclass="z-icon-heartbeat" />
+                <menuitem id="mniSystem" label="System" iconSclass="z-icon-desktop" />
+                <menuitem id="mniCamera" label="Camera" iconSclass="z-icon-video-camera" />
+                <menuseparator />
+                <menuitem id="mniUserManagement" label="User Management" iconSclass="z-icon-users" visible="false" />
+                <menuitem id="mniSettings" label="Settings" iconSclass="z-icon-wrench" visible="false" />
+                <menuseparator id="mnsLogin" visible="false" />
+                <menuitem id="mniLogin" label="Login" iconSclass="z-icon-user" />
+            </menupopup>
+        </south>
+    </borderlayout>
+</zk>

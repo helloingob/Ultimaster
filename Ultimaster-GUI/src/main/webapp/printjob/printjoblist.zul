@@ -1,0 +1,85 @@
+<box id="boxPrintJob" hflex="true" vflex="true" align="center" apply="de.fhl.ultimaster.gui.view.printjob.PrintJobListController">
+    <vbox width="960px" vflex="true" align="start">
+        <hbox hflex="true" id="hbxPrintJob" visible="false">
+            <vbox hflex="true" vflex="true" align="center">
+                <hbox hflex="true" align="center">
+                    <label value="Name:" hflex="1" />
+                    <label id="lblName" sclass="pj-value" hflex="2" />
+                </hbox>
+                <hbox hflex="true" align="center">
+                    <label value="Source:" hflex="1" />
+                    <label id="lblSource" sclass="pj-value" hflex="2" />
+                </hbox>
+                <hbox hflex="true" align="center">
+                    <label value="Begin:" hflex="1" />
+                    <label id="lblBegin" sclass="pj-value" hflex="2" />
+                </hbox>
+            </vbox>
+            <vbox hflex="true" vflex="true" align="center">
+                <hbox hflex="true" align="center">
+                    <label value="State:" hflex="1" />
+                    <label id="lblState" sclass="pj-value" hflex="2" />
+                </hbox>
+                <hbox hflex="true" align="center">
+                    <label value="Time:" hflex="1" />
+                    <label id="lblTime" sclass="pj-value" hflex="2" />
+                </hbox>
+                <hbox hflex="true" align="center">
+                    <label value="Progress:" hflex="1" />
+                    <progressmeter id="pgmProgress" hflex="2" />
+                </hbox>
+            </vbox>
+            <vbox hflex="min" vflex="true">
+                <button id="btnPausePrintJob" iconSclass="z-icon-pause" tooltiptext="Pause Print Job" />
+                <button id="btnStopPrintJob" iconSclass="z-icon-stop" tooltiptext="Stop Print Job" />
+            </vbox>
+        </hbox>
+        <separator height="10px" />
+        <tabbox vflex="true" hflex="true">
+            <tabs width="150px">
+                <tab id="tabPrintJobQueue" label="Queue" />
+                <tab id="tabPrintJobHistory" label="History" />
+            </tabs>
+            <tabpanels hflex="true">
+                <tabpanel>
+                    <vbox vflex="true" hflex="true">
+                        <listbox id="lbxPrintJobQueue" vflex="true" hflex="true" emptyMessage="No Print Jobs queued. Add new job with the buttons below.">
+                            <listhead>
+                                <listheader label="#" hflex="min" align="center" />
+                                <listheader label="Name" />
+                                <listheader label="File" />
+                                <listheader label="Active" hflex="min" align="center" />
+                                <listheader label="User" hflex="min" align="center" />
+                            </listhead>
+                        </listbox>
+                        <hbox hflex="true">
+                            <button id="btnAddPrintJob" iconSclass="z-icon-plus" tooltiptext="Add Print Job" />
+                            <button id="btnEditPrintJob" iconSclass="z-icon-pencil" tooltiptext="Edit Print Job" />
+                            <button id="btnRemovePrintJob" iconSclass="z-icon-times" tooltiptext="Remove Print Job" />
+                            <separator width="10px" />
+                            <button id="btnMovePrintJobUp" iconSclass="z-icon-chevron-up" tooltiptext="Move Print Job up" />
+                            <button id="btnMovePrintJobDown" iconSclass="z-icon-chevron-down" tooltiptext="Move Print Job down" />
+                            <hbox align="end" pack="end" hflex="true">
+                                <button id="btnQueue" iconSclass="z-icon-play" tooltiptext="Start Queue" />
+                            </hbox>
+                        </hbox>
+                    </vbox>
+                </tabpanel>
+                <tabpanel>
+                    <vlayout hflex="true" vflex="true">
+                        <textbox hflex="true" id="tbxSearch" placeholder="Search finished PrintJobs ..." />
+                        <listbox id="lbxPrintJobHistory" vflex="true" hflex="true">
+                            <listhead>
+                                <listheader id="lhdBegin" label="Begin" hflex="min" sort="auto" />
+                                <listheader id="lhdEnd" label="End" hflex="min" sort="auto" />
+                                <listheader label="Name" sort="auto" />
+                                <listheader label="Source" sort="auto" />
+                            </listhead>
+                        </listbox>
+                    </vlayout>
+                </tabpanel>
+            </tabpanels>
+        </tabbox>
+        <timer id="tmrRefresh" />
+    </vbox>
+</box>

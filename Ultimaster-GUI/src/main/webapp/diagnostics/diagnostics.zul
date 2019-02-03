@@ -1,0 +1,53 @@
+<zk>
+    <window id="wndDiagnostics" width="960px" height="800px" apply="de.fhl.ultimaster.gui.view.diagnostics.DiagnosticsController">
+        <borderlayout width="100%" height="100%">
+            <center border="none">
+                <tabbox vflex="true" hflex="true">
+                    <tabs width="150px">
+                        <tab label="Temperature" iconSclass="z-icon-line-chart" />
+                        <tab label="Extruder" iconSclass="z-icon-filter" />
+                        <tab label="Log" iconSclass="z-icon-bars" />
+                        <tab label="Event" iconSclass="z-icon-comments-o" />
+                    </tabs>
+                    <tabpanels hflex="true">
+                        <tabpanel>
+                            <div id="divChart" hflex="true" vflex="true" />
+                        </tabpanel>
+                        <tabpanel>
+                            <listbox id="lbxExtruder" vflex="true" hflex="true" emptyMessage="No Extruders found!" />
+                        </tabpanel>
+                        <tabpanel>
+                            <vlayout hflex="true" vflex="true">
+                                <textbox hflex="true" id="tbxSearchLogs" placeholder="Search Logs ..." />
+                                <listbox id="lbxLogs" vflex="true" hflex="true" emptyMessage="No Logs found!">
+                                    <listhead>
+                                        <listheader id="lhdDateLogs" label="Date" hflex="min" sort="auto" />
+                                        <listheader label="Process" hflex="min" sort="auto" />
+                                        <listheader label="Line" sort="auto" />
+                                    </listhead>
+                                </listbox>
+                            </vlayout>
+                        </tabpanel>
+                        <tabpanel>
+                            <vlayout hflex="true" vflex="true">
+                                <textbox hflex="true" id="tbxSearchEvents" placeholder="Search Events ..." />
+                                <listbox id="lbxEvents" vflex="true" hflex="true" emptyMessage="No Events found!">
+                                    <listhead>
+                                        <listheader id="lhdDateEvents" label="Date" hflex="min" sort="auto" />
+                                        <listheader label="Message" sort="auto" />
+                                        <listheader label="Parameters" hflex="min" sort="auto" />
+                                    </listhead>
+                                </listbox>
+                            </vlayout>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+            </center>
+            <south border="none">
+                <hbox hflex="true" pack="end">
+                    <button label="Close" autodisable="self" width="85px" onClick="wndDiagnostics.detach()" />
+                </hbox>
+            </south>
+        </borderlayout>
+    </window>
+</zk>
